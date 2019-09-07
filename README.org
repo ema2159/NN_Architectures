@@ -1,0 +1,11 @@
+#+TITLE: Neural Network Architectures
+#+CREATOR: Emmanuel Bustos T., Esteban Vargas
+#+SEQ_TODO: TODO(t) INPROGRESS(i) | DONE(d)
+
+This project aims to implement parameterised neural network architectures in different Python machine learning frameworks, with as detailed documentation as possible and in different levels of abstraction.
+
+Currently, this project is *work in progress*
+
+* Authors 
+  - Esteban Vargas Vargas
+  - Emmanuel Bustos Torres
