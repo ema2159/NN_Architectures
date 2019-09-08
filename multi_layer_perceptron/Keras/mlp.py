@@ -1,5 +1,5 @@
 """
-This file implements a multi layer perceptron using Tensorflow's Keras API.
+This file implements a multi layer perceptron for classification using Tensorflow's Keras API.
 Taken from Keras official documentation:
 https://www.tensorflow.org/tutorials/keras/basic_classification
 
@@ -52,7 +52,7 @@ class_names = [
     "Ankle boot",
 ]
 
-# Show a plot with examples of the data
+# Show a plot with examples of the data.
 plt.figure(figsize=(10, 10))
 for i in range(25):
     plt.subplot(5, 5, i + 1)
@@ -68,4 +68,9 @@ train_images = train_images / 255.0
 test_images = test_images / 255.0
 
 # Train the model.
-model.fit(train_images, train_labels, epochs=5)
+mlp.fit(train_images, train_labels, epochs=5)
+
+# Test the model.
+test_loss, test_acc = mlp.evaluate(test_images, test_labels)
+
+print('Test accuracy:', test_acc)
