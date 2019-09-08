@@ -2,7 +2,6 @@
 
 One of the first ANN architectures, first presented in 1957 by Frank Rosenblatt in his paper "*The perceptron: a probabilistic model for information storage and organization in the brain*". It is based on a type of artificial neuron called a linear threshold unit (LTU):
 <img src="Images/LTU.png" alt="Drawing" style="width: 400px;"/>
-![alt text](Images/LTU.png "title")
 
 The LTU computes a weighted sum of its inputs and then applies a step function to that sum and outputs the result.
 
